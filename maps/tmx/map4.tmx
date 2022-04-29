@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="12">
+ <editorsettings>
+  <export target="../map4.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Terrain (16 x 16)" tilewidth="16" tileheight="16" tilecount="170" columns="17">
+  <image source="../../possbileAssets/SeasonalTilesets/1 - Grassland/Terrain (16 x 16).png" width="272" height="160"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,110,0,89,91,0,0,0,0,0,
+0,0,0,0,0,0,0,110,0,89,91,0,0,0,0,0,
+0,0,0,0,0,0,0,110,0,89,91,0,0,21,22,22,
+0,0,0,0,0,0,0,110,0,89,91,0,0,38,39,39,
+0,0,0,0,0,0,0,110,0,89,91,0,0,38,39,39,
+22,23,0,0,0,0,0,110,0,89,91,0,0,38,39,39,
+39,40,0,0,0,0,0,110,0,89,91,0,0,38,39,39,
+39,40,0,0,0,0,0,110,0,89,91,0,0,38,39,39,
+39,40,0,0,0,0,0,110,0,89,91,0,0,38,39,39,
+39,40,0,0,0,61,65,110,0,89,91,0,0,38,39,39,
+39,40,0,0,0,0,0,110,0,106,108,0,0,38,39,39,
+39,40,0,0,0,0,0,0,0,0,0,0,0,38,39,39,
+39,40,0,0,0,0,0,0,0,0,0,0,0,38,39,39,
+39,40,0,0,0,0,0,0,0,0,0,0,0,38,39,39,
+39,57,22,22,22,22,22,22,22,22,22,22,22,55,39,39,
+39,56,56,56,56,56,56,56,56,56,56,56,56,56,39,56
+</data>
+ </layer>
+ <objectgroup color="#ff0000" id="3" name="solid">
+  <properties>
+   <property name="collidable" type="bool" value="true"/>
+  </properties>
+  <object id="5" x="145.572" y="0.791454" width="27.8649" height="173.816"/>
+  <object id="6" x="0.826046" y="225.007" width="253.783" height="30.7722"/>
+  <object id="8" x="1.96129" y="81.1115" width="27.8649" height="173.816"/>
+  <object id="9" x="209.148" y="33.4303" width="45.4615" height="189.71"/>
+  <object id="11" x="80.4426" y="145.508" width="31.1992" height="13.7071"/>
+ </objectgroup>
+</map>

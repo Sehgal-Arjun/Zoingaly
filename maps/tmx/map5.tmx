@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="15">
+ <editorsettings>
+  <export target="../map5.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="collidable" type="bool" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="Terrain (16 x 16)" tilewidth="16" tileheight="16" tilecount="170" columns="17">
+  <image source="../../possbileAssets/SeasonalTilesets/1 - Grassland/Terrain (16 x 16).png" width="272" height="160"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,21,23,0,0,0,38,
+0,0,0,0,0,21,23,0,0,0,106,108,0,0,0,38,
+22,23,0,0,0,106,108,0,0,0,0,0,0,0,0,38,
+39,40,0,0,0,0,0,0,0,0,0,0,0,0,0,38,
+39,40,0,0,0,0,0,0,0,21,23,0,0,0,0,38,
+39,40,0,0,0,0,0,0,0,106,108,0,0,21,54,55,
+39,40,0,0,0,21,23,0,0,0,0,0,0,106,71,72,
+39,40,0,0,0,106,108,0,0,0,0,0,0,0,0,38,
+39,40,0,0,0,0,0,0,0,0,0,21,23,0,0,38,
+39,40,0,0,0,0,0,0,0,0,0,106,108,0,0,38,
+39,40,0,21,23,0,0,0,0,0,0,0,0,0,0,38,
+39,40,0,106,108,0,0,0,0,0,0,0,0,0,0,106,
+39,40,0,0,0,0,0,0,21,23,0,0,0,0,0,0,
+39,40,0,0,21,23,0,0,106,108,0,0,0,0,0,0,
+39,40,0,0,106,108,0,0,0,0,0,0,0,0,0,0,
+39,40,0,0,0,0,0,0,0,0,0,0,61,62,62,62
+</data>
+ </layer>
+ <objectgroup color="#ff0000" id="2" name="solid">
+  <object id="1" x="160.168" y="0" width="31.2786" height="30.2001"/>
+  <object id="2" x="80.8931" y="16.1786" width="30.2001" height="30.7394"/>
+  <object id="3" x="145.608" y="64.7144" width="29.1215" height="27.5036"/>
+  <object id="4" x="210.322" y="80.3538" width="32.3572" height="28.5822"/>
+  <object id="5" x="80.8931" y="95.4538" width="29.1215" height="30.7394"/>
+  <object id="6" x="176.347" y="128.89" width="30.7394" height="29.1215"/>
+  <object id="7" x="49.6144" y="160.708" width="29.6608" height="29.1215"/>
+  <object id="8" x="65.2537" y="209.243" width="29.1215" height="28.5822"/>
+  <object id="9" x="128.89" y="191.447" width="29.6608" height="30.2001"/>
+  <object id="10" x="193.065" y="239.443" width="63.0966" height="15.1"/>
+  <object id="11" x="0.539287" y="32.3572" width="30.2001" height="224.343"/>
+  <object id="14" x="241.331" y="0.808938" width="12.4036" height="190.368"/>
+ </objectgroup>
+</map>

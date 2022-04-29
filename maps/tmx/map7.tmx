@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="14">
+ <tileset firstgid="1" name="Terrain (16 x 16)" tilewidth="16" tileheight="16" tilecount="170" columns="17">
+  <image source="../../possbileAssets/SeasonalTilesets/1 - Grassland/Terrain (16 x 16).png" width="272" height="160"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,
+22,22,22,22,22,22,22,22,22,22,22,22,23,0,0,89,
+107,107,107,107,107,107,107,107,107,107,107,107,108,0,0,89,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,
+0,0,0,0,21,23,0,0,0,0,0,0,0,0,0,89,
+0,0,0,0,89,91,0,0,53,54,54,54,54,54,54,55,
+0,0,0,0,106,108,0,0,106,107,107,107,107,107,107,72,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,89,
+0,0,0,0,0,0,0,0,0,21,23,0,0,0,0,89,
+0,0,0,61,62,62,65,0,61,55,40,0,0,0,0,89,
+0,0,0,0,0,0,0,0,0,38,40,0,0,67,0,89,
+0,0,0,0,0,0,0,0,0,106,108,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,97,0,0,61,62,62,62,65,0,0,61,65,0,21,22
+</data>
+ </layer>
+ <objectgroup color="#ff0000" id="2" name="solid">
+  <object id="2" x="0.600096" y="33.6054" width="205.833" height="28.8046">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="3" x="129.321" y="96.6155" width="126.02" height="28.8046">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="4" x="64.5103" y="80.4129" width="30.0049" height="45.0072">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="5" x="241.539" y="0.6001" width="14.4024" height="190.23">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="6" x="207.333" y="175.828" width="16.8028" height="16.2026">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="7" x="48.3077" y="160.226" width="63.0101" height="15.0024">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="8" x="144.923" y="144.623" width="29.4048" height="61.2098">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" x="129.321" y="159.626" width="18.6031" height="15.0024">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" x="16.5026" y="223.836" width="15.0025" height="31.205">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" x="65.1104" y="240.638" width="76.8124" height="13.2021">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="12" x="175.828" y="240.038" width="31.2051" height="13.2021">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="13" x="225.636" y="241.239" width="31.2051" height="13.2021">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

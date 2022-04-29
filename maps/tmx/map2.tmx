@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="3">
+ <tileset firstgid="1" name="Terrain (16 x 16)" tilewidth="16" tileheight="16" tilecount="170" columns="17">
+  <image source="../possbileAssets/SeasonalTilesets/1 - Grassland/Terrain (16 x 16).png" width="272" height="160"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,61,62,65,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+21,22,22,22,22,22,22,22,22,22,22,22,22,22,22,23,
+38,39,39,39,39,39,39,39,39,39,39,39,39,39,39,40,
+106,107,107,107,107,107,107,107,107,107,107,107,107,107,107,108
+</data>
+ </layer>
+ <objectgroup color="#ff0000" id="2" name="solid">
+  <properties>
+   <property name="collidable" type="bool" value="true"/>
+  </properties>
+  <object id="1" x="0.948722" y="211.091" width="253.783" height="42.6925"/>
+  <object id="2" x="95.4195" y="143.014" width="47.958" height="16.7146"/>
+ </objectgroup>
+</map>

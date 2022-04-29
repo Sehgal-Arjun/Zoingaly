@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="14">
+ <editorsettings>
+  <export target="map2.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Terrain (16 x 16)" tilewidth="16" tileheight="16" tilecount="170" columns="17">
+  <image source="../possbileAssets/SeasonalTilesets/1 - Grassland/Terrain (16 x 16).png" width="272" height="160"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,21,22,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,39,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,39,
+0,0,0,0,0,0,0,0,0,61,62,65,0,0,38,39,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,39,
+0,0,0,0,61,62,65,0,0,0,0,0,0,0,38,39,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,39,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,38,39,
+22,22,22,22,22,22,22,22,22,22,22,22,22,22,55,39,
+39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,
+56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,56
+</data>
+ </layer>
+ <objectgroup color="#ff0000" id="4" name="solid">
+  <object id="4" x="1.10138" y="209.263" width="254.419" height="45.7074">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" x="226.334" y="81.7776" width="29.1863" height="172.366">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="12" x="65.8078" y="159.976" width="44.055" height="13.767">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="13" x="146.484" y="128.036" width="44.055" height="13.767">
+   <properties>
+    <property name="collidable" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

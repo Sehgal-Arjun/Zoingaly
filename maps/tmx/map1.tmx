@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="3">
+ <editorsettings>
+  <export target="../map1.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Terrain (16 x 16)" tilewidth="16" tileheight="16" tilecount="170" columns="17">
+  <image source="../../possbileAssets/SeasonalTilesets/1 - Grassland/Terrain (16 x 16).png" width="272" height="160"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="16" height="16">
+  <data encoding="csv">
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+57,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,
+56,56,56,56,56,56,56,56,56,56,56,56,56,56,56,73,
+73,73,73,73,73,73,73,73,73,73,73,73,73,73,73,73
+</data>
+ </layer>
+ <objectgroup color="#ff0000" id="2" name="solid">
+  <properties>
+   <property name="collidable" type="bool" value="true"/>
+  </properties>
+  <object id="1" x="0.948722" y="0.0397948" width="13.5206" height="216.499"/>
+  <object id="2" x="1.63795" y="209.423" width="253.783" height="42.6925"/>
+ </objectgroup>
+</map>
