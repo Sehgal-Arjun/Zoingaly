@@ -120,7 +120,6 @@ function Player:decreaseGraceTime(dt)
 end
 
 function Player:applyGravity(dt)
-
     if self.grounded == false then
         self.yVel = self.yVel + self.gravity * dt
     end
@@ -197,6 +196,8 @@ function Player:beginContact(a, b, collision)
     elseif nx < 0 then
         self.wallDir = "l"
     end
+
+    --love.graphics.print(Map:getTileProperties(Object_Layer_1, 8, 8))
 end
 
 function Player:endContact(a, b, collision)

@@ -1,7 +1,7 @@
 local STI = require("sti")
 require("player")
 love.graphics.setDefaultFilter("nearest", "nearest")
-currentmap = 8
+currentmap = 1
 mapswitch = "new"
 startXPosition = 0
 startYPosition = 0
@@ -14,7 +14,7 @@ function love.load()
     Map.layers.solid.visible = false
     backbackground = love.graphics.newImage("possbileAssets/SeasonalTilesets/1 - Grassland/Background parts/2 - Hills.png")
     background = love.graphics.newImage("possbileAssets/SeasonalTilesets/1 - Grassland/Background parts/Complete_static_BG_(288 x 208).png")
-    Player:load(25, 0, "right", true)
+    Player:load(25, 120, "right", true)
 end
 
 function love.update(dt)
